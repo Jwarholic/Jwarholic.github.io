@@ -1,90 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Title and Link to Styles.css -->
 <head>
 	<title>All Fitness</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" >
 </head>
 <body>
-	<a href="sites.html">Website Links (Check these out)</a>
-	<br>
-	<a href="motivation.html">Motivation Page</a>
+  <header>
+  <div class="link1">
+	<a href="sites.html" class="headlink"> Websites</a>
+  </div>
+  <div id="link2">
+	<a href="motivation.html" class="headlink">Motivation</a>
+ </div>
+   </header>
 	<hr>
-	<h1>Welcome to All Fitness!</h1>
-	<img src="http://livingfit.co/wp-content/uploads/2012/01/gym-motivation-success.jpg" alt="motivation">
-	<br>
-	<a href="http://livingfit.co/wp-content/uploads/2012/01/gym-motivation-success.jpg">Image Source</a>
-		<h2> A little about me:</h2>
-		<p>
-		Fitness is one of my favorite hobbies. One of my life missions is to be the best me and to achieve dreams and goals that will push me into becoming a better version of myself.
-		</p>
-		<p>
-		 I have had many ups and downs with fitness. Through trial and error I have learned what it takes to become in better shape. I have points in my life where I go <strong>All in</strong> with what I am doing. 
-		</p>
-		<p> 
-		I have learned that <strong>consitancy</strong> is the most important factor in becoming better. How much effort I put in how much I am rewarded.  I have been down to that 6-9 percent body fat at my peak. I quickly lose that when I decide I want to eat whatever I want and not exercise or take breaks. Even though I know what I need to do to maintain that dream physique, it's very easy to lose it as well. I'm now more inspired than ever and ready to push myself to new limits.
-		</p>
-		<hr>
-		<h2>My list of goals:</h2>
-		<ul>
-			<li>Stay in great shape.</li>
-			<li>Learn something new every day</li>
-			<li>Become a web developer/programmer</li>
-			<li>Keep motivated</li>
-			<li>Live life to the fullest</li>
-			<li>Push myself to new limits and experiences</li>
-		</ul>
-		<hr>
-		<h2>A cool website I like to use</h2>
-
-		<p><a href="www.bodybuilding.com">Bodybuilding.com</a>
-		</p>
-		<p> They have a simplistic yet proffesional themed webpage. I was able to view the page source and recognize some of the html elements such as list and headers. I could also see some of the CSS code and javascript codes. I also really like how they have a header that consist of navigational menus and a footer with more information.
-		<hr>
-		<h2> Comments: </h2>
-			<form action="success.html">
-			<fieldset>
-			<legend>
-			Your Review:
-			</legend>
+	<h1>All Around Fitness!</h1>
+	<!-- Start of image section -->
+	<section>
+			<img src="https://i.ytimg.com/vi/YpSi2rW4oHk/maxresdefault.jpg" id="image" alt="motivation">
+		<br>
+		<div id="source">
+		<a href="https://i.ytimg.com/vi/YpSi2rW4oHk/maxresdefault.jpg">Image Source</a>
+		</div>
+	</section>
+		<h2> About Me:</h2>
+		  <article id="article">
 			<p>
-			<label>
-			How into fitness are you on a scale of 1-5? (5 being the highest)
-			</label>
+			Fitness is one of my favorite hobbies. One of my life missions is to be the best me and to achieve dreams and goals that will push me into becoming a better version of myself.
 			</p>
-			<select name="scale">
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-				<option value="5">5</option>
-			</select>
+			<p>
+			 I have had many ups and downs with fitness. Through trial and error I have learned what it takes to become in better shape. I have points in my life where I go <strong>All in</strong> with what I am doing. 
+			</p>
+			<p> 
+			I have learned that <strong>being consistent</strong> is the most important factor in becoming better. How much effort I put in how much I am rewarded.  I have been down to that 6-9 percent body fat at my peak. I quickly lose that when I decide I want to eat whatever I want and not exercise or take breaks. Even though I know what I need to do to maintain that dream physique, it's very 	easy to lose it as well. I'm now more inspired than ever and ready to push myself to new limits.
+			</p>
+			</article>
+				<hr>
+				<h2>Goals:</h2>
+					<div class="list">
+					<ul>
+					<li>Stay in great shape.</li>
+					<li>Learn something new every day</li>
+					<li>Become a web developer/programmer</li>
+					<li>Keep motivated</li>
+					<li>Live life to the fullest</li>
+					<li>Push myself to new limits and experiences</li>
+					</ul>
+					</div>
+				<hr>
+		<h2>Example Website</h2>
+		<div class="website">
+			<p><a href="www.bodybuilding.com">Bodybuilding.com</a>
+			</p>
+			<p> Tihs is one of my go to websites. I viewed the page source and recognize some of the html elements such as list and headers. I could also see some of the CSS code and javascript codes. I also really like how they have a header that consist of navigational menus and a footer with more information.
+			</p>
+			</div>
+				<hr>
+		<h2> Comments: </h2>
+		<footer class="footer">
+			<form action="success.html">
+				<fieldset>
+				<legend>
+				Your Review:
+				</legend>
+				<p>
+					<label>
+					How into fitness are you on a scale of 1-5? (5 being the highest)
+					</label>
+				</p>
+					<select name="scale">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
 			<p>What is your favorite activity to stay healthy?
 			</p>
-			<label>
-				<input type="radio" name="favorite" value="running" />
-				Running
-			</label>
-			<label>
-				<input type="radio" name="favorite" value="crossfit" />
-				Crossfit
-			</label>
-			<label>
-				<input type="radio" name="favorite" value="weightlifting" />
-				Weightlifting
-			</label>
-			<label>
-				<input type="radio" name="favorite" value="other" />
-				Other
-			</label>
-			<br>
+				<label>
+					<input type="radio" name="favorite" value="running" />
+					Running
+				</label>
+				<label>
+					<input type="radio" name="favorite" value="crossfit" />
+					Crossfit
+				</label>
+				<label>
+					<input type="radio" name="favorite" value="weightlifting" />
+					Weightlifting
+				</label>
+				<label>
+					<input type="radio" name="favorite" value="other" />
+					Other
+				</label>
+						<br>
 			<p>
 			    <label for="comments">Feel free to leave some thoughts/comments! 
 				</label>
-				</p>
-			<textarea name="comments" rows="4" cols ="80" id="comments"> Enter whats on your mind...
-			</textarea>
-			<br>
+			</p>
+				<textarea name="comments" rows="4" cols ="30" id="comments"> Enter whats on your mind...
+				</textarea>
+							<br>
 			<input type="submit" value="submit comments">
 			</fieldset>
 			</form>
+			</footer>
 </body>
 </html>
