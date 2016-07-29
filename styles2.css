@@ -1,0 +1,179 @@
+html {
+	font-family:Copperplate; Arial, Times New Roman;
+	margin-left: 5%;
+	background-color: #99d6ff;
+	margin-right: 5%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	margin-bottom: 1%;
+}
+
+body {
+	background-color: lightyellow;
+	margin-left: 5%;
+}
+
+header {
+	background-color: black;
+	height: 30%;
+	font-size: 25px;
+	font-family: Copperplate;
+	width: 100%;	
+}
+
+p {
+	text-indent: 5%;
+	margin-left: 5%;
+}
+
+h1 {
+	font-family:Copperplate, Arial;
+	color: black;
+	text-align: center;
+	font-size: 34px;
+}
+
+h2 {
+	text-align:left;
+}
+
+section {
+	text-align:center;
+}
+
+.link1 {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+
+#link2 {
+	display: inline-block;
+}
+
+a.headlink:visited {
+	color: pink;
+}
+
+a.headlink:hover {
+	color: green;
+}
+
+a:hover {
+	color:green;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+}
+
+.image {
+	position:relative;
+	margin-top: -1%;
+	width: 50%;
+	border: 10px solid black;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.picture {
+	margin-left: 25%;
+	width: auto;
+	height: auto;
+	max-width: 600px;
+	max-height: 300px;
+}
+#source {
+	position: relative;
+	width: 50%;
+	text-align: center;
+	margin: 2% auto;
+}
+
+hr {
+	visibility: hidden;
+}
+
+h2 {
+	width: 40%;
+	height: 20%;
+	color: black;
+	border-radius: 15px;
+	font-size: 26px;
+	margin-left: 5%;
+}
+
+#article {
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #99d6ff;
+	font-size: 23px;
+	border: 2px solid black;
+	padding: 15px;
+}
+
+.list {
+	background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRR99p56qJX8-cKoM3zlOEiI7l3LIkcb7YmkHhh9uflRNyEG-uJ);
+	font-size: 23px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 50%;
+	border: 2px solid black;
+}
+
+.website {
+	font-size: 23px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #99d6ff;
+	border: 2px solid black;
+	padding: 1%;
+}
+
+ .footer {
+ 	background-image: url(http://il6.picdn.net/shutterstock/videos/9983156/thumb/1.jpg);
+ 	margin-left: 5%;
+ 	width: 90%;
+ 	height: 100%;
+ 	font-size: 20px;
+ }
+@media screen and (max-width: 650px) {
+	h1 {
+		font-size: 23px;	}
+}
+
+
+@media screen and (max-width: 700px) {
+	#topleft, #topright, #link1, #link2 {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.list, .website, .footer, #article {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.list {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width:650px) {
+	.footer {
+		font-size: 10px;
+		text-align: left;
+		width: auto;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.picture {
+		width: 50%;
+	}
+}
+/**/
