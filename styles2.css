@@ -1,11 +1,12 @@
 html {
-	font-family:Copperplate; Arial, Times New Roman;
+	font-family:Copperplate, Arial, Times New Roman;
 	margin-left: 5%;
 	background-color: #99d6ff;
 	margin-right: 5%;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
 	margin-bottom: 1%;
+	border-bottom: 2px solid black;
 }
 
 body {
